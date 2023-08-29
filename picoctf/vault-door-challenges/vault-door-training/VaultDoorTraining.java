@@ -6,13 +6,13 @@ class VaultDoorTraining {
         Scanner scanner = new Scanner(System.in); 
         System.out.print("Enter vault password: ");
         String userInput = scanner.next();
-	String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
-	if (vaultDoor.checkPassword(input)) {
-	    System.out.println("Access granted.");
-	} else {
-	    System.out.println("Access denied!");
-	}
-   }
+        String input = userInput.substring("picoCTF{".length(),userInput.length()-1);
+        if (vaultDoor.checkPassword(input)) {
+            System.out.println("Access granted.");
+        } else {
+            System.out.println("Access denied!");
+        }
+    }
 
     // The password is below. Is it safe to put the password in the source code?
     // What if somebody stole our source code? Then they would know what our
