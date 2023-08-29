@@ -1,1 +1,2 @@
-
+#!/usr/bin/env bash
+grep -Eo "([0-9]{1,2}).+'(.+?)'" VaultDoor1.java | sort --version-sort | cut -d "'" -f2 | awk "{print}" ORS="" | awk '{ print "picoCTF{" $1 "}" }'
