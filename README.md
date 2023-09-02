@@ -1,3 +1,3 @@
-# reverse-engineering
+# ctf-and-reverse-engineering
 
-A repository for any reverse engineering projects or challenges that I am working on.
+A repository for any CTF or reverse engineering challenges that I am working on.
